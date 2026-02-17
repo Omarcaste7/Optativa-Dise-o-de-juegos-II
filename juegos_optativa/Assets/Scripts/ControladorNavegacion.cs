@@ -19,4 +19,10 @@ public class ControladorNavegacion : MonoBehaviour
         portada.SetActive(true);
         contenido.SetActive(false);
     }
+    // Función para cerrar la aplicación
+    public void SalirDelJuego()
+    {
+        Debug.Log("Cerrando aplicación..."); // Mensaje para probar en el editor
+        Application.Quit(); // Esto cierra la app real
+    }
 }
